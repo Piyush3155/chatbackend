@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "socket-server": "node server.js"
+    "start": "node server.js",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "15.3.3",
